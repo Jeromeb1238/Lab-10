@@ -1,0 +1,30 @@
+header {
+    width: 901px;
+    height: 150px;
+}
+#logo {
+    border: springgreen solid 2px;
+    width: 250px;
+    height: 100px;
+}
+#bar {
+
+    width: 901px;
+    height: 10px;
+    background-image: url(lab-assets/hr-img.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 150px;
+    
+}
+#lilBoxes {
+    width: fit-content;
+    /* float: right; */
+    /* clear: right; */
+    position: absolute;
+    top: 50px; left: 700px;
+    
+}
+#lilBoxes img {
+   margin-left: 2px;
+}
