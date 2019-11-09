@@ -1,11 +1,25 @@
 header {
+    /* background-color: lightgrey; */
     width: 901px;
-    height: 150px;
+    height: 125px;
 }
 #logo {
-    border: springgreen solid 2px;
-    width: 250px;
-    height: 100px;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+}
+#logo h1 {
+    position: absolute;
+    top: -25px;
+    left:50px;
+}
+#logo h2 {
+    font-size: 12px;
+    position: absolute;
+    top: 24px;
+    left:50px;
+
 }
 #bar {
 
@@ -14,7 +28,7 @@ header {
     background-image: url(lab-assets/hr-img.png);
     background-repeat: repeat;
     position: absolute;
-    top: 150px;
+    top: 125px;
     
 }
 #lilBoxes {
@@ -22,9 +36,44 @@ header {
     /* float: right; */
     /* clear: right; */
     position: absolute;
-    top: 50px; left: 700px;
-    
+    top: 60px; left: 700px;
 }
 #lilBoxes img {
    margin-left: 2px;
 }
+#pizza-section {
+    width: 901px;
+    height: 80px;
+}
+#pizza-section h1 {
+    font-size: 40px;
+}
+#pizza-section h4 {
+    font-size: 15px;
+    position: absolute;
+    top: 185px;
+ }
+ #pizza-section span {
+   float: right;
+   font-size: 8px; 
+   width: ;
+ }
+
+ #narrative p {
+     width: 901px;
+ }
+ #receipe {
+     width: 901px;
+     
+ }
+ #receipe column {
+     border: 2px black solid;
+     width: 400px;
+
+ }
+ #col1{
+     float: left;
+ }
+ #col2 {
+     float: right;
+ }
