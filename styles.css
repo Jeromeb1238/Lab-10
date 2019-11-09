@@ -64,16 +64,20 @@ header {
  }
  #receipe {
      width: 901px;
+     background-image: url(lab-assets/list-bg.png);
+    
      
  }
  #receipe column {
-     border: 2px black solid;
+   
      width: 400px;
 
  }
  #col1{
      float: left;
+     margin-left: 30px;
  }
  #col2 {
      float: right;
+     margin-right: 30px;
  }
